@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.Features {
+    width: 372px;
+    font-size: 35px;
+}
+
+.fun {
+    width: 410px;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.button-subscribes {
+    width: 250px;
+    height: 60px;
+    font-size: 16px;
+    background-color: #F53838;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 340px;
+    margin-top: 25px;
+    margin-bottom: 62px;
+}
+
+.subscribes-container-father {
+    display: flex;
+    justify-content: center;
+    width: 1140px;
+    height: 233px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.subscribes-container-son {
+    width: 410px;
+    height: 116px;
+}
+
+@media only screen and (max-width:768px) {
+    .subscribes-container-father {
+        width: 500px;
+    }
+}
+
+.footerall {
+    display: flex;
+    justify-content: space-between;
+    height: 563px;
+    font-weight: 100;
+    padding-right: 150px;
+}
+
+.network {
+    width: 340px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-container-one {
+    margin-left: 150px;
+}
+
+.footer-container-fours div {
+    margin-bottom: 20px;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+}
+
+.product div {
+    margin-bottom: 20px;
+}
